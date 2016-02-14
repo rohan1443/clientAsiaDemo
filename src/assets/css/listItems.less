@@ -1,0 +1,45 @@
+.listItemContainer{
+	padding: 25px 4px;
+	.listItems{
+		//padding: 15px;
+		.itemContainer{
+			padding: 15px;
+			border-top: 1px solid #ccc;
+			color: #000;
+			.itemName{
+				padding-left: 15px;
+			font-size: 2.5rem;
+    		font-weight: bold;
+    		text-align: left;
+    		word-wrap: break-word;
+			}
+			.itemImage{
+				cursor: pointer;
+				//border: 1px solid #fff;
+	    		border-radius: 50%;
+	    		height: 147px;
+	    		margin: auto;
+	    		width: 170px;
+	    		img{
+	    			height: inherit;
+	    		}
+			}
+			.itemPrice{
+				padding-left: 15px;
+				font-size: 2.1rem;
+    			font-weight: bold;
+    			text-align: left;
+			}
+			.itemDescription{
+				word-wrap: break-word;
+			}
+			 &:last-child {
+                border-bottom: 1px solid #ccc;
+            }
+		}
+		.itemContainer:hover {
+			background:rgba(0, 0, 0, 0.04) none repeat scroll 0 0;
+		}
+		
+}
+}
